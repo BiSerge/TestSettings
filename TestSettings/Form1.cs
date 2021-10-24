@@ -15,14 +15,13 @@ namespace TestSettings
         public Form1()
         {
             InitializeComponent();
+
+            // -- In this example, the location, size, color of the window and text in TextEdit 
+            // -- are automatically saved. You must have the code to control the process.
         }
 
         private void Form1_Shown(object sender, EventArgs e)
-        {
-            // -- In this example, the location, size, color of the window and text in TextEdit 
-            // -- are automatically saved. You must have the code to control the process.
-
-            
+        {                  
             // -- this kod need if you want to control process
 
             //textBox1.Text = Properties.Settings.Default.mText;
